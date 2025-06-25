@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App - Get your Note</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <!-- Custom Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a class="navbar-brand" href="/">Notes App</a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/notes">My Notes</a></li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <input type="search" placeholder="Search">
+            <button type="submit">Search</button>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <h2>Start Writing Your Notes</h2>
+        <form action="/" method="post">
+            <textarea name="note" class="form-control" placeholder="Write your note here..."></textarea>
+            <button type="submit" class="btn btn-primary mt-2">Save Note</button>
+        </form>
+    </div>
+<!-- 
+    <div class="notes">
+        {% if docs is defined %}
+        <p>No notes to show</p>
+        {% endif %}
+            {% for item in docs %}
+                <div class="note">
+                    <p>{{ item.note }}</p>
+                </div>
+            {% endfor %}
+    </div>
+     -->
+</body>
+
+</html>

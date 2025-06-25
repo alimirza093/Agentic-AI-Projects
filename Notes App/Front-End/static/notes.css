@@ -1,0 +1,51 @@
+/* General Page Styling */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Page Styling */
+.container h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.container p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
